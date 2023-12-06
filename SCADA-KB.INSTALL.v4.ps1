@@ -38,13 +38,13 @@ CLS
 #-- ********************************************************:
 #-- DEFINE PARAMS, CONFIG PATHS, IMPORT CLASSES             :
 #-- ********************************************************:
-$SCADASvrs		= GET-CONTENT 'C:\0_SCRIPTS\KB.INSTALLER.Dev\SYS\NODNA.jeb'
-$SCADAPatch		= 'KB5032197.msu'
+$SCADASvrs      = GET-CONTENT 'C:\0_SCRIPTS\KB.INSTALLER.Dev\SYS\NODNA.jeb'
+$SCADAPatch     = 'KB5032197.msu'
 #--
-$PATCHReName	= $SCADAPatch -REPLACE ".{4}$"
-$SCADASrc		= "C:\TEMP\PATCHES\$SCADAPatch"
-$PSTOOLSrc		= 'C:\PSTOOLS\*'
-$LOGPath    	= "C:\0_SCRIPTS\KB.INSTALLER.Dev\0_LOGS\SCADA-PATCH.LOG.jeb"
+$PATCHReName    = $SCADAPatch -REPLACE ".{4}$"
+$SCADASrc       = "C:\TEMP\PATCHES\$SCADAPatch"
+$PSTOOLSrc      = 'C:\PSTOOLS\*'
+$LOGPath        = "C:\0_SCRIPTS\KB.INSTALLER.Dev\0_LOGS\SCADA-PATCH.LOG.jeb"
 #--
 #-- FUNCTION TO DEFINE LOG MSG:
 function LOG-MESSAGE
